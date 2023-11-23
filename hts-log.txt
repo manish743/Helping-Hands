@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Oct 2023 13:45:58 at https://themezhub.net/workoo-live/workoo/freelancer-1.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://themezhub.net/workoo-live/workoo/freelancer-1.html -O1 "D:\1Freelancer_unit\templates\job_market" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:46:49	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/search.html (from https://themezhub.net/workoo-live/workoo/freelancer-1.html)
+13:46:50	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/assets/css/owl.video.play.png (from https://themezhub.net/workoo-live/workoo/assets/css/plugins.css)
+13:46:50	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/search-services-grid-2.html active (from https://themezhub.net/workoo-live/workoo/search-services-grid-2.html)
+13:46:53	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/dashboard-invoice.html (from https://themezhub.net/workoo-live/workoo/dashboard.html)
+13:46:53	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/popper.js (from https://themezhub.net/workoo-live/workoo/assets/js/bootstrap.min.js)
+13:46:53	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/picker.js (from https://themezhub.net/workoo-live/workoo/assets/js/materialize.min.js)
+13:46:53	Error: 	"Not Found" (404) at link https://themezhub.net/workoo-live/workoo/assets/css/metisMenu.css (from https://themezhub.net/workoo-live/workoo/bookmark-candidates.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 55 seconds : 182 links scanned, 174 files written (12910885 bytes overall) [8841189 bytes received at 160748 bytes/sec], 5564082 bytes transferred using HTTP compression in 103 files, ratio 24%, 30.3 requests per connection
+(7 errors, 0 warnings, 0 messages)
