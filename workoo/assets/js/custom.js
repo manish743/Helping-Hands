@@ -2,10 +2,11 @@
 (function($){
 	"use strict";
 	
-	//Loader	
+	// Loader	
 	$(window).on('load', function () {
 		$('.Loader').delay(350).fadeOut('slow');
 		$('body').delay(350).css({ 'overflow': 'visible' });
+		
 	})
 
     // Navigation
@@ -154,7 +155,7 @@
 		$("#navigation").navigation()
 	});	
 	
-	// Count
+	Count
 	$(window).on('load', function() {
 		$('.count').counterUp({
 			delay:20,
