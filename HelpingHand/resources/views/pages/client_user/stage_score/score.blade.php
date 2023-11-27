@@ -1,0 +1,11 @@
+@if ($applicant->stage_id == 1 && $auth_user->hasPermissionto('Edit-Stage1'))
+    @include('pages.client_user.stage_score.stage1score')
+@elseif($applicant->stage_id == 2 && $auth_user->hasPermissionto('Edit-Stage2'))
+    @include('pages.client_user.stage_score.stage2score')
+@elseif($applicant->stage_id == 3 && $auth_user->hasPermissionto('Edit-Stage3'))
+    @include('pages.client_user.stage_score.stage3score')
+@elseif($applicant->stage_id == 4 && $auth_user->hasPermissionto('Edit-Stage4'))
+    @include('pages.client_user.stage_score.stage4score')
+@elseif($applicant->stage_id == 5 && $auth_user->hasPermissionto('Edit-Stage5'))
+    @include('pages.client_user.stage_score.stage5score')
+@endif
