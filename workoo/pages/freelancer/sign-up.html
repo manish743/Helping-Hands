@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Candidate Registration Form</title> -->
+    <title>Helping Hands</title>
+    <link rel="shortcut icon" href="../../assets/img/logo_black.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh; */
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        input[type="checkbox"] {
+            margin-bottom: 8px;
+        }
+        button {
+            background-color: #2596be;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease-in;
+        }
+        button:hover {
+            background-color: #0b7ba4;
+        }
+
+        .heading{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <form id="candidateForm">
+        <div class="heading">
+            <h2>Candidates Information</h2>
+            <span>Fill the form below to create new candidates</span>
+        </div>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="employmentType">Type of Employment:</label>
+        <select id="employmentType" name="employmentType">
+            <option value="select">Select</option>
+            <option value="fullTime">Full Time</option>
+            <option value="partTime">Part Time</option>
+            <option value="contract">Contract</option>
+            <option value="freelance">Freelance</option>
+        </select>
+
+        <label for="specialty">Area of Specialty:</label>
+        <input type="text" id="specialty" name="specialty" required>
+
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label for="currentSalary">Current Salary:</label>
+        <input type="text" id="currentSalary" name="currentSalary">
+
+        <label for="expectedSalary">Expected Salary:</label>
+        <input type="text" id="expectedSalary" name="expectedSalary">
+
+        <label for="areaOfInterest">Area of Interest:</label>
+        <textarea id="areaOfInterest" name="areaOfInterest" rows="4"></textarea>
+
+        <label for="cv">Upload your CV:</label>
+        <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx">
+
+        <button type="submit">Create Candidate</button>
+    </form>
+
+    <!-- Add your JavaScript for form submission/validation if needed -->
+</body>
+</html>
